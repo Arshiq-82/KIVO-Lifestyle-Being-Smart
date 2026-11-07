@@ -5,7 +5,7 @@
  2) Replace demo products, prices and image URLs with verified products.
  3) Do not publish unverified availability, discounts or delivery promises.
 */
-const WHATSAPP_NUMBER = "91XXXXXXXXXX";
+const WHATSAPP_NUMBER = "919987707510";
 
 const products = [
   {
