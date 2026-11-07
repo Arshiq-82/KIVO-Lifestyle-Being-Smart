@@ -7,7 +7,7 @@
 */
 const WHATSAPP_NUMBER = "919987707510";
 
-const products = window.KIVO_PRODUCTS || [];\n
+const products = window.KIVO_PRODUCTS || [];
 
 const rupees = amount => new Intl.NumberFormat("en-IN", {
   style: "currency", currency: "INR", maximumFractionDigits: 0
