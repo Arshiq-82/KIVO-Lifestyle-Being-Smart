@@ -14,8 +14,8 @@ const rupees = amount => new Intl.NumberFormat("en-IN", {
 }).format(amount);
 
 function waUrl(message) {
-  const number = WHATSAPP_NUMBER.replace(/\D/g, "");
-  if (!number || number.includes("919987707510")) {
+ const number = WHATSAPP_NUMBER.replace(/\D/g, "");
+if (!number || number === "91XXXXXXXXXX") {
     alert("Add your WhatsApp Business number in script.js before publishing the catalogue.");
     return "#";
   }
